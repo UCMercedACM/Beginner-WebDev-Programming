@@ -1,0 +1,97 @@
+html{
+    background-color: black !important;
+}
+.calculator{
+    width: 50%;
+    height: 60%;
+    background-color: rgb(31, 202, 145);
+    border-radius: 20px;
+    border: 10px yellowgreen solid;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.screen{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 20%;
+    background-color: black;
+}
+
+.keys{
+    width: 90%;
+    height: 60%;  
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: aqua;
+}
+
+.numberKey{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 3vh;
+    background-color: yellow;
+    height: 100%;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+.numberKey:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.sum{
+    width: 90%;
+    background-color: rgb(59, 59, 211);
+    height: 100%;
+    font-size: 8vh;
+    color: white;
+    text-align: center;
+    border: 3px rgb(59, 59, 211) solid;
+    border-radius: 30px;
+}
+
+.sum:hover{
+    background-color: white;
+    color: rgb(59, 59, 211);
+    cursor: pointer;
+    border: 3px rgb(59, 59, 211) solid;
+}
+
+.equal{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(35, 182, 9);
+    font-size: 5vh;
+    border-radius: 30px;
+    color: white;
+    border: 2px  rgb(35, 182, 9) solid;
+}
+
+.equal:hover{
+    background-color: white;
+    color: rgb(35, 182, 9);
+    cursor: pointer;
+}
+
+.clear{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+    font-size: 3vh;
+    border-radius: 30px;
+    color: white;
+    border: 2px  red solid; 
+}
+
+.clear:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.input{
+    text-align:right !important;
+}

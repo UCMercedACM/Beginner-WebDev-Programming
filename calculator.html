@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    </head>
+    <body>
+        <div class = "calculator">
+            <div class = "screen">
+                <input id = "screen" class = "input is-rounded is-large is-link" align = "right" value = "HELLO :D" readonly/>
+            </div>
+            <div class = "keys">
+                <div class = "columns">
+                    <div class="column is-9">
+                        <!-- NUMBER KEYS -->
+                        <div class = "columns">
+                            <div class = "column is-4">
+                                <button onclick = "readKey(9)" class = "numberKey">9</button>
+                            </div>
+
+                            <div class = "column is-4">
+                                    <button onclick = "readKey(8)" class = "numberKey">8</button>
+                            </div>
+
+                            <div class = "column is-4">
+                                <button onclick = "readKey(7)" class = "numberKey">7</button>
+                            </div>    
+                        </div>
+                        <div class = "columns">
+                                <div class = "column is-4">
+                                    <button onclick = "readKey(6)" class = "numberKey">6</button>
+                                </div>
+                                
+                                <div class = "column is-4">
+                                        <button onclick = "readKey(5)" class = "numberKey">5</button>
+                                </div>
+    
+                                <div class = "column is-4">
+                                    <button onclick = "readKey(4)" class = "numberKey">4</button>
+                                </div>    
+                        </div>
+                        <div class = "columns">
+                                <div class = "column is-4">
+                                    <button onclick = "readKey(3)" class = "numberKey">3</button>
+                                </div>
+                                
+                                <div class = "column is-4">
+                                        <button onclick = "readKey(2)" class = "numberKey">2</button>
+                                </div>
+    
+                                <div class = "column is-4">
+                                    <button onclick = "readKey(1)" class = "numberKey">1</button>
+                                </div>    
+                        </div>
+                         <div class = "columns">
+                            <div class = "column is-4">
+                                <button onclick = "readKey(0)" class = "numberKey">0</button>
+                            </div>                                                     
+                        </div>
+                    </div>
+                    <div class = "column is-3">
+                        <!-- OPERATION KEYS -->
+                        <div class = "columns">
+                                <div class = "column is-12">
+                                    <button onclick = "readKey('c')" class = "clear">CLEAR</button>
+                                </div>
+                        </div>
+                        <div class = "columns">
+                            <div class = "column is-12">
+                                <button onclick = "readKey('+')" class = "sum">+</button>
+                            </div>
+                        </div>
+                        <div class = "columns">
+                                <div class = "column is-12">
+                                    <button onclick = "readKey('=')" class = "equal">=</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./calculator.js"></script>
+    </body>
+</html>
